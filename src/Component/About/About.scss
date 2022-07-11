@@ -1,0 +1,27 @@
+.about{
+
+
+    .rect_design{
+        position: absolute;
+        left: -900px;
+        top: 800px;
+
+        
+
+    }
+
+
+    .grid{
+        display: grid;
+        grid-template-columns:40% auto ;
+
+        .shape{
+            height: 50px;
+            width: 30px;
+            border-radius: 15px;
+
+        }
+
+
+    }
+}

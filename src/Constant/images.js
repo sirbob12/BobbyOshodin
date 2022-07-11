@@ -6,7 +6,7 @@ import dribbble from '../port_asset/dribbble.svg';
 import instagram from '../port_asset/instagram.svg';
 import circle from '../port_asset/circle.png';
 import rect_design from '../port_asset/rect_design.png';
-import rectangle1 from '../port_asset/rectangle1.png';
+import rectangle from '../port_asset/rectangle.png';
 
  
 
@@ -21,5 +21,5 @@ export default{
     instagram,
     circle,
     rect_design,
-    rectangle1
+    rectangle
 }

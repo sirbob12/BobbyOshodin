@@ -1,8 +1,14 @@
 import React from 'react'
+import {images} from '../../Constant';
+import './About.scss';
 
 const About = () => {
   return (
      <section className="about">
+         <img src={images.rectangle} alt="" className="rectangle" />
+        <img src={images.rect_design} alt="" className="rect_design" />
+        <img src={images.circle} alt="" className="circle" />
+
       <div className="about_wrapper grid">
         <div className="shape"></div>
 
