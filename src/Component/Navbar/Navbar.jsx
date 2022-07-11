@@ -10,7 +10,7 @@ const Navbar = () => {
 
         <ul className="navbar_elements_wrapper">
           <a href="/project1"><li classname='list_elements'>About</li></a>
-          <a href="#"><li classname='list_elements'>Skills</li></a>
+          <a href="#"><li classname='list_elements'>Services</li></a>
           <a href="#"><li classname='list_elements'>Portfolio</li></a>
         </ul>
       </div>

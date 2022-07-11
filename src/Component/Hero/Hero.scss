@@ -8,13 +8,13 @@
             width: 1500px;
             position: absolute;
             top: -480px;
-            right: -800px;
+            right: -850px;
         }
 
 
         .grid{
             display: grid;
-            grid-template-columns: 50% auto;
+            grid-template-columns: 56% auto;
 
 
             .left_section{
@@ -22,30 +22,32 @@
                 margin-top: 150px;
                 margin-left: 200px;
                 .heading_text{
-                    font-family: var(--primary-font);
+                   // font-family: var(--primary-font);
                     font-size: 30px;
                     font-weight: 500;
-                    //padding-bottom:;
+                    padding-bottom:20px;
                 }
 
 
                 .main_heading{
-                    font-size: 90px;
+                    font-size: 100px;
                     font-weight: 700;
-                    font-family: var(--primary-font);
+                   // padding: 10px;
+                    //font-family: var(--primary-font);
                 }
 
 
                 .subheading-text{
-                   font-size: 50px;
+                   font-size: 45px;
                    font-weight: 400px;
-                   font-family: var(--primary-font);
+                   //font-family: var(--primary-font);
                 }
 
                 .text_paragraph{
-                   font-size: 19px;
+                   font-size: 25px;
                    font-weight: 400px;
-                   font-family: var(--secondary-font);
+                   padding-top: 10px;
+                   //font-family: var(--primary-font);
 
                 }
 
@@ -55,9 +57,19 @@
                     background: blue;
                     border-radius: 30px;
                     text-decoration: none;
-                    padding: 8px 45px;
+                    padding: 10px 45px;
                     display: inline-block;
-                    margin-top: 15px;
+                    margin-top: 19px;
+
+                    box-shadow:
+                    1.3px 0.6px 3.3px rgba(0, 0, 0, 0.022),
+                    4.2px 1.9px 7.4px rgba(0, 0, 0, 0.031),
+                    9.5px 4.5px 13.1px rgba(0, 0, 0, 0.037),
+                    19.4px 9.1px 21.8px rgba(0, 0, 0, 0.043),
+                    38.8px 18.1px 37.5px rgba(0, 0, 0, 0.051),
+                    92px 43px 80px rgba(0, 0, 0, 0.07)
+                    ;
+
                 }
 
             }
@@ -65,8 +77,8 @@
             .hero_image{
                 position: relative;
                 z-index: 1;
-                width: 400px;
-                margin-top: 50px;
+                width: 380px;
+                margin-top: 65px;
                 
                
             }

@@ -13,12 +13,12 @@ const Hero = () => {
           <div className="left_section">
             <p className="heading_text">Hello,</p>
             <h1 className="main_heading heading_align">I'm Bobby</h1>
-            <h2 className="subheading-text subheading_align">UI/UX designer</h2>
+            <h2 className="subheading-text subheading_align">UI/UX Designer</h2>
 
             <p className="text_paragraph">I create, design and develope amazing products <br/>and 
-            experiences that makes people happy</p>
+            experiences that makes people happy.</p>
 
-            <a href="#" className="btn_cta">Hire me</a>
+            <a href="/project2" className="btn_cta">Hire me</a>
           </div>
 
           <div className="right_section">
