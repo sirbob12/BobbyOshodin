@@ -1,4 +1,5 @@
 .about{
+    
 
 
     .rect_design{
@@ -10,16 +11,85 @@
 
     }
 
+    .circle{
+        position: absolute;
+        top: 650px;
+        left: 300px;
+        opacity: 60%;
+    }
+
+    .rectangle{
+        position: absolute;
+        top: 750px;
+        left: 120px;
+        opacity: 60%;
+    }
+
 
     .grid{
         display: grid;
-        grid-template-columns:40% auto ;
+        grid-template-columns:repeat(2,1fr) ;
+        margin-top: 150px;
 
         .shape{
-            height: 50px;
-            width: 30px;
-            border-radius: 15px;
+            height: 500px;
+            width: 400px;
+            border-radius: 10px;
+            background:#EBE8E8;
+            margin-left: 200px;
+            z-index: 1;
+            box-shadow:
+            1.3px 0.6px 3.3px rgba(0, 0, 0, 0.022),
+            4.2px 1.9px 7.4px rgba(0, 0, 0, 0.031),
+            9.5px 4.5px 13.1px rgba(0, 0, 0, 0.037),
+            19.4px 9.1px 21.8px rgba(0, 0, 0, 0.043),
+            38.8px 18.1px 37.5px rgba(0, 0, 0, 0.051),
+            92px 43px 80px rgba(0, 0, 0, 0.07)
+            ;
 
+        }
+
+        .right_section{
+
+            margin-top: 10px;
+
+            .about_me{
+               font-size: 80px;
+               font-weight: 700;
+               font-family: var(--secondary-font);
+               padding-bottom: 10px;
+              
+             
+            }
+
+            .about_section{
+
+               font-size: 28px;
+               font-family: var(--primary--font);
+               font-weight: 400;
+               line-height: 33px;
+               
+            }
+
+            .btn_about_me{
+                font-size: 18px;
+                    color: #fff;
+                    background:var(--primary-color);
+                    border-radius: 30px;
+                    text-decoration: none;
+                    padding: 10px 45px;
+                    display: inline-block;
+                    margin-top: 19px;
+
+                    box-shadow:
+                    1.3px 0.6px 3.3px rgba(0, 0, 0, 0.022),
+                    4.2px 1.9px 7.4px rgba(0, 0, 0, 0.031),
+                    9.5px 4.5px 13.1px rgba(0, 0, 0, 0.037),
+                    19.4px 9.1px 21.8px rgba(0, 0, 0, 0.043),
+                    38.8px 18.1px 37.5px rgba(0, 0, 0, 0.051),
+                    92px 43px 80px rgba(0, 0, 0, 0.07)
+                    ;
+            }
         }
 
 
