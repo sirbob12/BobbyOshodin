@@ -2,10 +2,16 @@
 .social{
 
     .wrapper{
-        display:inline-block;
+        display:grid ;
+        gap: 10px;
+        margin-left: 40px;
 
         img{
-            width:35px;
+            width:30px;
+
+            &:hover{
+                width: 32px;
+            }
             
         }
     }
