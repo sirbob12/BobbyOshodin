@@ -1,0 +1,33 @@
+
+.service{
+ margin-top: 100px;
+
+    .service_heading{
+        font-size: 80px;
+        font-weight: 700;
+        font-family: var(--secondary-font);
+        text-align: center;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 60% auto;
+
+        .design_service {
+            
+            .design_image{
+                width: 60px;
+            }
+            
+
+        }
+
+        .dev_service{
+            
+
+            .dev_image{
+                width: 60px;
+            }
+        }
+    }
+}
