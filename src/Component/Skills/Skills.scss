@@ -1,6 +1,6 @@
 
 .service{
- margin-top: 100px;
+ margin-top: 200px;
 
     .service_heading{
         font-size: 80px;
@@ -10,23 +10,83 @@
     }
 
     .grid{
+        margin-top: 40px;
+        //margin-left: 50px;
         display: grid;
-        grid-template-columns: 60% auto;
+        grid-template-columns: 50% auto;
+        //gap: 10px;
 
         .design_service {
+             
+           
+            padding: 20px 10px;
+            border-radius: 15px;
+            background: #EBE8E8;
+            width: 400px;
+            margin-left: 200px;
+            
+            
+          
+            
+           
+
             
             .design_image{
-                width: 60px;
+                width: 100px;
+                margin-left:8em ;
+                padding-bottom: 20px;
+                margin-top: 12px;
             }
+            
+            .design_heading{
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+
+            .design_text{
+                font-weight: 300;
+                font-size: 22px;
+                text-align: center;
+            }
+            
             
 
         }
 
         .dev_service{
+            padding: 20px 20px;
+            border-radius: 15px;
+            background: #EBE8E8;
+            margin-right: 80px;
+            width: 400px;
+        
+          
+          
             
 
             .dev_image{
-                width: 60px;
+                margin-top: 20px;
+                width: 100px;
+                margin-left: 8em;
+                padding-bottom: 10px;
+                //padding-left: 30px;
+
+            }
+
+            .dev_heading{
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+
+            .dev_text{
+                font-weight: 300;
+                font-size: 22px;
+                text-align: center;
+                padding-bottom: 10px;
             }
         }
     }

@@ -13,14 +13,14 @@ const Skills = () => {
           <div className="design_service">
             <img src={images.design_img} alt="" className="design_image" />
             <p className="design_heading">UI/Ux Design</p>
-            <p className="design_text">It is a long established fact that a reader will be
-             distracted by the readable content of a page when looking at its layout. The point </p>
+            <p className="design_text">It is a long established fact that a reader<br/> will be
+             distracted by the readable content of a page when<br/> looking at its layout. The point </p>
           </div>
           <div className="dev_service">
             <img src={images.dev_img} alt="" className="dev_image" />
-            <p className="dev_heading">Web Developement</p>
-            <p className="dev_text">It is a long established fact that a reader will be
-             distracted by the readable content of a page when looking at its layout. The point </p>
+            <p className="dev_heading">Web Development</p>
+            <p className="dev_text">It is a long established fact that a reader will be<br/>
+             distracted by the readable content of a page when<br/> looking at its layout. The point </p>
           </div>
         </div>
 
