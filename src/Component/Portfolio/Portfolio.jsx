@@ -10,20 +10,27 @@ const portfolio = () => {
                <div className="portfolio_container">
                 <div className="portfolio_card1">
                     <img src={images.app1} alt="image" className="app1_img" />
+
+                    <div className="text_btn_wrapper">
                     <p className="app1_heading">Social-Media</p>
                     <a href="#" className="btn">View Design</a>
+                    </div>
                 </div>
                 <div className="portfolio_card1">
 
                     <img src={images.app2} alt="image" className="app1_img" />
-                    <p className="app1_heading">Netflix</p>
+                    <div className="text_btn_wrapper">
+                    <p className="app1_heading">Social-Media</p>
                     <a href="#" className="btn">View Design</a>
+                    </div>
                 </div>
 
                 <div className="portfolio_card1">
                     <img src={images.app3} alt="image" className="app1_img" />
-                    <p className="app1_heading">Invetor</p>
+                    <div className="text_btn_wrapper">
+                    <p className="app1_heading">Social-Media</p>
                     <a href="#" className="btn">View Design</a>
+                    </div>
                 </div>
               
                </div>
