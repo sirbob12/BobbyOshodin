@@ -3,11 +3,17 @@
 /*body { background:rgb(30,30,40); }*/
 form { max-width:420px; margin:50px auto; }
 
+
+.contact{
+   margin-top: 20px;
+}
+
+
 .contact_heading{
   text-align: center;
-  font-size: 70px;
-  font-weight: bold;
-  font-family: var(--primary-font);
+  font-size: 80px;
+  font-weight: 700;
+  font-family: var(--secondary-font);
 }
 
 .feedback-input {
