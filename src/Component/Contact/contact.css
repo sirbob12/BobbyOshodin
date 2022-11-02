@@ -3,6 +3,17 @@
 /*body { background:rgb(30,30,40); }*/
 form { max-width:420px; margin:50px auto; }
 
+/*my own iterations /additions to the design*/
+.contact_wrapper{
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.contact_logo{
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
 
 .contact{
    margin-top: 20px;

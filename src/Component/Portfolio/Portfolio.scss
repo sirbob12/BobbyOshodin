@@ -186,13 +186,15 @@
 
             display: grid;
             grid-template-columns: 50% auto;
-            //gap: 50px;
-            margin: 50px;
+            gap: 50px;
+            margin:0;
+            padding: 100px;
 
 
            img{
             width: 600px;
             height: 100vh;
+            margin-left: -100px;
            }
 
            .text_btn_wrapper{

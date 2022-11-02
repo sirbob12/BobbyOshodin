@@ -17,7 +17,7 @@ const portfolio = () => {
                     <p className="_text_captions">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, suscipit architecto? Totam, architecto est dignissimos, unde alias voluptatem saepe assumenda impedit dolore aliquam cupiditate possimus ad excepturi sit, qui et!
                     </p>
-                    <a href="#" className="btn">See More</a>
+                    <a href="/project1" className="btn" >See More</a>
                     </div>
                 </div>
                 <div className="portfolio_card2">
@@ -28,7 +28,7 @@ const portfolio = () => {
                     <p className="_text_captions">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, suscipit architecto? Totam, architecto est dignissimos, unde alias voluptatem saepe assumenda impedit dolore aliquam cupiditate possimus ad excepturi sit, qui et!
                     </p>
-                    <a href="#" className="btn">See More</a>
+                    <a href="/project2" className="btn">See More</a>
                     </div>
                     <img src={images.app2} alt="image" className="app2_img" />
                 </div>
@@ -40,7 +40,7 @@ const portfolio = () => {
                     <p className="_text_captions">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, suscipit architecto? Totam, architecto est dignissimos, unde alias voluptatem saepe assumenda impedit dolore aliquam cupiditate possimus ad excepturi sit, qui et!
                     </p>
-                    <a href="#" className="btn">See More</a>
+                    <a href="/project3" className="btn">See More</a>
                     </div>
                 </div>
               

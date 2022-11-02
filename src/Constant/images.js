@@ -12,6 +12,13 @@ import dev_img from '../port_asset/dev_img.svg';
 import app1 from '../port_asset/app1.jpg';
 import app2 from '../port_asset/app2.png';
 import app3 from '../port_asset/app3.jpg';
+import contact from '../port_asset/contact.svg';
+import main_logo from '../port_asset/main_logo.svg';
+import frame from '../port_asset/frame.png';
+import goals from '../port_asset/goals.png';
+import backend from '../port_asset/backend.png';
+import frontend from '../port_asset/frontend.png';
+
 
 
  
@@ -32,5 +39,11 @@ export default{
     dev_img,
     app1,
     app2,
-    app3
+    app3,
+    contact,
+    main_logo,
+    frame,
+    goals,
+    frontend,
+    backend
 }

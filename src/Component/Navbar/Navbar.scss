@@ -33,9 +33,10 @@
             font-family: 'League Spartan', sans-serif; 
             font-weight: 600;
             padding-right: 20px;
+            transition: ease-in 0.1s;
 
             &:hover{
-                
+                color: var(--primary-color);
             }
         }
 
