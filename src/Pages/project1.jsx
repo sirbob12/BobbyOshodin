@@ -31,15 +31,21 @@ const project1 = () => {
             </p>
             </div>
 
+            <hr className='summary_line'/>
 
-            <h1 className="scope">Scope of work</h1>
-            <p className="scope">
-              In order to make this product meet the needs of the end users, I gathered insights from 
-              users research and interviews, which informed my decisions on the developement of a prototype
+            
+            <div className="scope">
+            <h1 className="scope_work">Scope of work</h1>
+            <p className="scope_text">
+              In order to make this product meet the needs of the end users, I gathered insights from<br/>
+              users research and interviews, which informed my decisions on the developement of a prototype<br/>
               with a users friendly interface and simple design.
             </p>
+            </div>
 
             <img src={images.frame} alt="" className="frame" />
+
+            <hr className='goal_line'/>
 
             <div className="goal_class">
               <h2 className="goal">My Goal</h2>
@@ -52,9 +58,11 @@ const project1 = () => {
                 season and could be a hassle.  
               </h1>
 
-               <img src={images.goals} alt="" className="goals_image" />
+               <img src={images.goals} alt="goals_image" className="goals_image" />
               </div>
             </div>
+
+            <hr/>
 
             <h1 className="case_study">
               CASE STUDY COMING SOON

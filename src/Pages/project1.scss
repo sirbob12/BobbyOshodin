@@ -63,8 +63,50 @@
 
         }
 
-       
 
+        .summary_line{
+            margin-top: 130px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 0.5px solid #f4f4f4;
+        }
+
+
+        .scope{
+
+            text-align: center;
+           margin-top: 50px;
+
+            .scope_work{
+               font-size: 70px;
+               font-weight: bolder;
+               
+            }
+
+            .scope_text{
+               font-size: 20px;
+               font-weight: bold;
+               margin-top: 20px;
+
+            }
+        }
+
+
+        .frame{
+            align-items: center;
+            margin-left: 200px;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+       
+       
+        .goal_line{
+            margin-top: 130px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 0.5px solid #f4f4f4;
+        }
 
     }
 }
