@@ -1,25 +1,35 @@
 import React from 'react'
 import {images} from '../Constant'
 
+//import scss links
+import './project1.scss'
+
 const project1 = () => { 
   return (
-    <div>
-      <h1 className="heading-tag">
+  
+      
          <section className="project1">
           <div className="container">         
             <hr/>
-
-            <p className="heading">FestiveBuys</p>
+            
+            <div className="heading_tags">
+            <h1 className="heading">FESTIVEBUYS WEB APPLICATION</h1>
             <h1 className="main_heading_tag">
-              An Ecommerce solution for gifts at affordable prices!
+              AN ECOMMERCE SOLUTION FOR GIFTS AT AFFORDABLE PRICES.
             </h1>
+            </div>
 
-            <h1 className="summary">Summary</h1>
-            <p className="summary">
+            <img src={images.Landing_page} alt="" className="landing_page" />
+             
+
+             <div className="summary_group">
+            <h1 className="summary">SUMMARY</h1>
+            <p className="summary_text">
               An ecommerce web application which enables customers to make gift purchases
               based on their holidays or festival preferences. Hence saving time of trying to make choice 
               from ambigous gifts list.
             </p>
+            </div>
 
 
             <h1 className="scope">Scope of work</h1>
@@ -49,10 +59,20 @@ const project1 = () => {
             <h1 className="case_study">
               CASE STUDY COMING SOON
             </h1>
+            
+            <div className="hifi_section">
+            <h2 className="heading">The solution</h2>
+            <h2 className="solutions_subheading">
+              HI-FIDELITY WEB APPLICATION DESIGN
+            </h2>
+
+             <img src={images.frontend} alt="" className="frontend" />
+             <img src={images.backend} alt="" className="backend" />
+            </div>
           </div>
          </section>
-      </h1>
-    </div>
+    
+    
   )
 }
 

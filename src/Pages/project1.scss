@@ -1,0 +1,70 @@
+//creating the logic for frontend designs
+
+.project1{
+   background:#3C0101;
+
+
+    .container{
+
+        h1,h2,p{
+            color:#fff;
+        }
+        
+        hr{
+            margin-top: 130px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 3px solid #f4f4f4;
+
+        }
+
+
+        .heading_tags{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            
+            .heading{
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+                margin-top: 20px;
+                
+            }
+    
+            .main_heading_tag{
+                text-align: center;
+                font-size:80px;
+                font-weight: bolder;
+                line-height: 90px;
+                margin-top: 30px;
+    
+            }
+
+        }
+
+        .landing_page{
+            width: 1400px;
+        }
+
+        .summary_group{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            margin-top: 50px;
+
+            .summary{
+               font-size: 25px;
+               margin-left: 30px;
+            }
+
+            .summary_text{
+               font-size: 45px;
+               margin-right: 20px;
+            }
+
+        }
+
+       
+
+
+    }
+}

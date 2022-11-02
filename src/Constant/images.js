@@ -18,6 +18,8 @@ import frame from '../port_asset/frame.png';
 import goals from '../port_asset/goals.png';
 import backend from '../port_asset/backend.png';
 import frontend from '../port_asset/frontend.png';
+import Landing_page from '../port_asset/Landing_page.png';
+
 
 
 
@@ -45,5 +47,6 @@ export default{
     frame,
     goals,
     frontend,
-    backend
+    backend,
+    Landing_page
 }
