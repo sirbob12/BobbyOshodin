@@ -2,6 +2,7 @@
 
 .project1{
    background:#3C0101;
+   margin-top: -100px;
 
 
     .container{
@@ -57,8 +58,10 @@
             }
 
             .summary_text{
-               font-size: 45px;
+             
                margin-right: 20px;
+               font-size: 40px;
+               line-height: 50px;
             }
 
         }
@@ -75,7 +78,7 @@
         .scope{
 
             text-align: center;
-           margin-top: 50px;
+           margin-top: 100px;
 
             .scope_work{
                font-size: 70px;
@@ -108,5 +111,86 @@
             border: 0.5px solid #f4f4f4;
         }
 
+
+        .goal_class{
+           display: grid;
+           grid-template-columns: 30% 70%;
+           margin-top: 100px;
+
+            .goal{
+              margin-left: 70px;
+              font-size: 25px;
+            }
+
+            .right_goals{
+
+                .goal_paragraph{
+                   font-size: 40px;
+                   line-height: 50px;
+                   
+
+                }
+
+                
+            }
+      
+      
+        }
+
+        .goals_image{
+            padding-left: 135px;
+            padding-top: -50px;
+            margin-top: -50px;
+
+         }
+
+
+         .case_study_line{
+            margin-top: 130px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 0.5px solid #f4f4f4;
+         }
+
+         .case_study{
+            margin-top: 50px;
+            text-align: center;
+            font-size: 70px;
+            
+            border-radius: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 20px;
+            padding-left: 20px;
+         }
+
+
+         .hifi_section{
+            margin-top: 150px;
+            text-align: center;
+
+            .heading{
+               padding-bottom: 20px;
+            }
+
+            .solutions_subheading{
+
+            }
+         }
+
+         .frontend{
+            width: 1200px;
+            margin-top: 70px;
+         }
+
+
+         .backend{
+            width: 1200px;
+            margin-top: 100px;
+         }
     }
+
+   
+
+    
 }

@@ -1,10 +1,14 @@
 import React from 'react'
 import {images} from '../Constant'
+import {Contact} from '../Component'
 
 //import scss links
 import './project1.scss'
 
 const project1 = () => { 
+  const contactStyle = {
+     background:'white'
+  }
   return (
   
       
@@ -52,17 +56,18 @@ const project1 = () => {
               
               <div className="right_goals">
               <h1 className="goal_paragraph">
-                My goal was to design a web application with a very simple user interface that 
-                that will allow customers buy gifts that is specifically suited for yhe given festival/ celebration 
-                without having to spend so much time trying to select from a large pool of gifts which might not be realated to the given 
-                season and could be a hassle.  
+                My goal was to design a web application with a <br/>very simple user interface that 
+                that will allow customers<br/> buy gifts that is specifically suited for the given <br/>festival celebration 
+                without having to spend so much time <br/>trying to select from a large pool of gifts which might not <br/> be realated to the given 
+                season and could be a hassle.             
               </h1>
 
-               <img src={images.goals} alt="goals_image" className="goals_image" />
+              
               </div>
             </div>
-
-            <hr/>
+             
+            <img src={images.goals} alt="goals_image" className="goals_image" />
+            <hr className='case_study_line'/>
 
             <h1 className="case_study">
               CASE STUDY COMING SOON
@@ -77,6 +82,8 @@ const project1 = () => {
              <img src={images.frontend} alt="" className="frontend" />
              <img src={images.backend} alt="" className="backend" />
             </div>
+
+            <Contact style={{contactStyle}}/>
           </div>
          </section>
     
