@@ -83,7 +83,7 @@ const project1 = () => {
              <img src={images.backend} alt="" className="backend" />
             </div>
 
-            <Contact style={{contactStyle}}/>
+            <Contact/>
           </div>
          </section>
     

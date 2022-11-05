@@ -1,0 +1,130 @@
+.project2{
+
+    background:#3C0101;
+    margin-top: -100px;
+
+
+    .container{
+
+        h1,h2,p{
+            color:#fff;
+        }
+        
+        hr{
+            margin-top: 130px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 3px solid #f4f4f4;
+
+        }
+
+
+
+        .section1{
+            text-align: center;
+            margin-top: 25px;
+
+
+            .small_heading{
+                
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+                margin-top: 20px;
+                
+
+            }
+
+            .heading_description{
+                margin-top: 10px;
+                text-align: center;
+                font-size:60px;
+                font-weight: bolder;
+                line-height: 60px;
+        
+
+            }
+        }
+
+
+        .summary{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            margin-top: 30px;
+
+            .summary_heading{
+                font-size: 25px;
+                margin-left: 60px;
+
+            }
+
+            .summary_subheading{
+               
+                margin-right: 20px;
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+
+        .body_line{
+            margin-top: 130px;
+            margin-left: 70px;
+            margin-right: 70px;
+            border: 0.5px solid #f4f4f4;
+        }
+
+        .scope{
+            text-align: center;
+            margin-top: 35px;
+
+
+            .scope_heading{
+              font-size: 50px;
+            }
+
+            .scope_subtitle{
+              
+               margin-top: 10px;
+               font-size: 20px;
+               line-height: 20px;
+            }
+        }
+
+        
+        .goal{
+            display: grid;
+            grid-template-columns: 30% 70%;
+
+            .goal_heading{
+                margin-left: 70px;
+                font-size: 25px;
+            }
+
+            .goal_subheading{
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+
+
+        .goals_image{
+            padding-left: 135px;
+            padding-top: -50px;
+            margin-top: -50px;
+        }
+
+        .case_study{
+
+            .case_study_heading{
+                text-align: center;
+                font-size: 50px;
+                
+            }
+        }
+
+
+
+    }
+
+
+}
