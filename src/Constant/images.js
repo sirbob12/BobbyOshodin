@@ -19,6 +19,7 @@ import goals from '../port_asset/goals.png';
 import backend from '../port_asset/backend.png';
 import frontend from '../port_asset/frontend.png';
 import Landing_page from '../port_asset/Landing_page.png';
+import Bedroompros from '../port_asset/Bedroompros.png';
 
 
 
@@ -48,5 +49,6 @@ export default{
     goals,
     frontend,
     backend,
-    Landing_page
+    Landing_page,
+    Bedroompros
 }
