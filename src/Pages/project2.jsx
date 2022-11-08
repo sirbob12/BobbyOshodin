@@ -1,6 +1,6 @@
-import React from 'react'
-import {images} from '../Constant'
-import './project2.scss'
+import React from 'react';
+import {images} from '../Constant';
+import './project2.scss';
 
 const project2 = () => {
   return (
@@ -37,7 +37,7 @@ const project2 = () => {
           <p className="scope_subtitle">
             In other to make this application more engaging and user friendy,
             I gathered sufficient information <br/>about the end users which are majorly
-            young adults between the ages of 22-45. THis information helped <br/>me to develope 
+            young adults between the ages of 22-45 yrs. This information helped <br/>me to develope 
             a prototype with simple design and user friendly interface.
 
           </p>
@@ -60,7 +60,7 @@ const project2 = () => {
         <img src={images.goals} alt="" className="goals_image" />
 
         <div className="case_study">
-          <h1 className="case_study_heading">CASE STUDY COMMING SOON</h1>
+          <h1 className="case_Study_heading">CASE STUDY COMMING SOON</h1>
         </div>
         
       </div>
