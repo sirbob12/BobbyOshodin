@@ -94,6 +94,7 @@
         .goal{
             display: grid;
             grid-template-columns: 30% 70%;
+            margin-top: 30px;
 
             .goal_heading{
                 margin-left: 70px;
@@ -114,12 +115,12 @@
         }
 
         .case_study{
+           
 
-            .case_study_heading{
-                text-align: center;
-                font-size: 50px;
-                
-            }
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 80px;
+         
         }
 
 
