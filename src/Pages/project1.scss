@@ -1,196 +1,124 @@
-//creating the logic for frontend designs
+
+/* css for the project file*/
 
 .project1{
-   background:#3C0101;
-   margin-top: -100px;
-
-
+    margin-right: 175px;
+    margin-left: 175px;
+ 
     .container{
+        margin-top: 80px;
+      
+        /* Global attributes*/
+        h2{
+            font-size: 25px;
+        }
 
-        h1,h2,p{
-            color:#fff;
+        p{
+            font-size: 20px;
+            padding-top: 14px;
+            line-height: 25px; 
+        }
+
+        .projectName{
+            text-align: center;
+            font-size: 45px;
+          
         }
         
-        hr{
-            margin-top: 130px;
-            margin-left: 70px;
-            margin-right: 70px;
-            border: 3px solid #f4f4f4;
+        /*introduction div*/
+        .introduction{
+           margin-top: 40px;
+           
+           .subheading{
+
+           }
+
+          
 
         }
 
-
-        .heading_tags{
-            margin-top: 40px;
-            margin-bottom: 30px;
-            
-            .heading{
-                text-align: center;
-                font-size: 25px;
-                font-weight: bold;
-                margin-top: 20px;
-                
-            }
-    
-            .main_heading_tag{
-                text-align: center;
-                font-size:80px;
-                font-weight: bolder;
-                line-height: 90px;
-                margin-top: 30px;
-    
-            }
-
+        /*problem statement div*/
+        .problemStatement{
+           margin-top: 30px;
         }
 
-        .landing_page{
-            width: 1400px;
+        /* tools*/
+        .tools{
+            margin-top: 30px; 
         }
 
-        .summary_group{
-            display: grid;
-            grid-template-columns: 30% 70%;
-            margin-top: 50px;
-
-            .summary{
-               font-size: 25px;
-               margin-left: 30px;
-            }
-
-            .summary_text{
-             
-               margin-right: 20px;
-               font-size: 40px;
-               line-height: 50px;
-            }
-
+        /*dataSourcing div*/
+        .DataSourcing{
+            margin-top: 30px;
         }
 
-
-        .summary_line{
-            margin-top: 130px;
-            margin-left: 70px;
-            margin-right: 70px;
-            border: 0.5px solid #f4f4f4;
-        }
-
-
-        .scope{
-
-            text-align: center;
-           margin-top: 100px;
-
-            .scope_work{
-               font-size: 70px;
-               font-weight: bolder;
+        /*DataPreprocessing*/
+        .DataPreProcessing{
+            margin-top: 30px;
                
-            }
-
-            .scope_text{
-               font-size: 20px;
-               font-weight: bold;
-               margin-top: 20px;
-
+             .process1{
+                padding-top: 20px;
+             }
+          
+            .image_1{
+                margin-top: 40px;
+                height: 400px;
             }
         }
 
+        /*Model*/
+        .model{
+            margin-top: 60px;
 
-        .frame{
-            align-items: center;
-            margin-left: 200px;
-            margin-top: 20px;
-            margin-bottom: 0px;
+            .modelSpan{
+                margin-left: 30px;
+            }
+
+            .image2{
+                margin-top: 20px;
+                height: 400px;
+            }
+
         }
 
-       
-       
-        .goal_line{
-            margin-top: 130px;
-            margin-left: 70px;
-            margin-right: 70px;
-            border: 0.5px solid #f4f4f4;
+
+        /*analysis and visualization*/
+        .analysisVisualization{
+            margin-top: 80px;
+
+            .visualization{
+                margin-top: 40px;
+                text-align: center;
+                padding-bottom: 20px;
+
+            }
+
+            .image3{
+                margin-left: 170px;
+            }
+
+
         }
-
-
-        .goal_class{
-           display: grid;
-           grid-template-columns: 30% 70%;
-           margin-top: 100px;
-
-            .goal{
-              margin-left: 70px;
-              font-size: 25px;
-            }
-
-            .right_goals{
-
-                .goal_paragraph{
-                   font-size: 40px;
-                   line-height: 50px;
-                   
-
-                }
-
-                
-            }
-      
-      
-        }
-
-        .goals_image{
-            padding-left: 135px;
-            padding-top: -50px;
-            margin-top: -50px;
-
-         }
-
-
-         .case_study_line{
-            margin-top: 130px;
-            margin-left: 70px;
-            margin-right: 70px;
-            border: 0.5px solid #f4f4f4;
-         }
-
-         .case_study{
-            margin-top: 50px;
-            text-align: center;
-            font-size: 70px;
-            
-            border-radius: 15px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 20px;
-            padding-left: 20px;
-         }
-
-
-         .hifi_section{
-            margin-top: 150px;
-            text-align: center;
-
-            .heading{
-               padding-bottom: 20px;
-            }
-
-            .solutions_subheading{
-
-            }
-         }
-
-         .frontend{
-            width: 1200px;
+         
+        .visualizationDiv{
             margin-top: 70px;
-         }
+            margin-bottom: 40px;
 
+            .visualization_heading{
+                margin-bottom: 50px;
+            }
 
-         .backend{
-            width: 1200px;
-            margin-top: 100px;
-         }
+            .image8{
+                margin-left: 70px;
+            }
+        }
+
+        .conclusion{
+            padding-bottom: 30px;
+            .image9{
+                height:300px;
+                margin-left: 200px;
+            }
+        }
     }
-
-   
-
-    
 }

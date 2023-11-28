@@ -1,22 +1,24 @@
 import React from 'react'
 import { images } from '../../Constant';
-import './contact.css';
+/*import './contact.css';  */
+import './Contact.scss';
+
+
 
 const Contact = () => {
   return (
     <section className="contact">
-        <div className="contact container">
-            <h1 className="contact_heading">Contact Me</h1>
-            <div className="contact_wrapper">
-              <img src={images.contact} alt="contact_logo" className="contact_logo" />
-            <form>      
-              <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-              <input name="email" type="text" class="feedback-input" placeholder="Email" />
-              <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-              <input type="submit" value="SUBMIT"/>
-            </form>
-            </div>
-        </div>
+       <div className="section_wrapper">
+        <h2 className="contact_heading">Wanna discuss business/ give Me work??</h2>
+        <p className="contact_caption">
+        send me an Email and I'll respond swiftly...
+        </p>
+          
+        <p className="caption1">
+          sirbob12@gmail.com
+        </p>
+
+       </div>
     </section>
   )
 }

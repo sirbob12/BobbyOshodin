@@ -20,7 +20,7 @@ const Hero = () => {
             <p className="text_paragraph">I draw meaningful insights from complex datasets<br/> and help organizations
             make profitable decisions</p>
 
-            <a href="/project2" className="btn_cta">Hire me</a>
+            <a href="#portfolio" className="btn_cta">See my work</a>
           </div>
 
           <div className="right_section">

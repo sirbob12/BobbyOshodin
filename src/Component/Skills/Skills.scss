@@ -1,92 +1,47 @@
-
 .service{
- margin-top: 200px;
-
+    margin-top: 120px;
+    
     .service_heading{
-        font-size: 80px;
-        font-weight: 700;
-        font-family: var(--secondary-font);
-        text-align: center;
+       text-align: center;
+       font-size: 60px;
+       font-weight: 700;
     }
 
-    .grid{
-        margin-top: 40px;
-        //margin-left: 50px;
-        display: grid;
-        grid-template-columns: 50% auto;
-        //gap: 10px;
+    .service_wrapper_grid{
+       display: flex;
+       margin-left: 300px;
+       margin-top: 80px;
+       gap: 150px;
 
-        .design_service {
+        .skills_wrapper{
+
+    /* classes for the images*/
+           .skills_visualization{
+             height: 68px;
+             padding-left: 65px;
+           }
+
+           .skills_machine_learning{
+              height: 60px;
+              margin-bottom: 7px;
+              padding-left: 65px;
+
              
-           
-            padding: 20px 10px;
-            border-radius: 15px;
-            background: #EBE8E8;
-            width: 400px;
-            margin-left: 200px;
-            
-            
+           }
+
+           .skills_dataAnalysis{
+            padding-left: 50px;
+           }
+
+
+     /* class for the captions*/     
+
+            .img_captions{
+               font-size: 27px;
+               font-weight: 600;
           
-            
-           
+               
 
-            
-            .design_image{
-                width: 100px;
-                margin-left:8em ;
-                padding-bottom: 20px;
-                margin-top: 12px;
-            }
-            
-            .design_heading{
-                font-weight: bold;
-                font-size: 30px;
-                text-align: center;
-                padding-bottom: 10px;
-            }
-
-            .design_text{
-                font-weight: 300;
-                font-size: 22px;
-                text-align: center;
-            }
-            
-            
-
-        }
-
-        .dev_service{
-            padding: 20px 20px;
-            border-radius: 15px;
-            background: #EBE8E8;
-            margin-right: 80px;
-            width: 400px;
-        
-          
-          
-            
-
-            .dev_image{
-                margin-top: 20px;
-                width: 100px;
-                margin-left: 8em;
-                padding-bottom: 10px;
-                //padding-left: 30px;
-
-            }
-
-            .dev_heading{
-                font-weight: bold;
-                font-size: 30px;
-                text-align: center;
-                padding-bottom: 10px;
-            }
-
-            .dev_text{
-                font-weight: 300;
-                font-size: 22px;
-                text-align: center;
-                padding-bottom: 10px;
             }
         }
     }

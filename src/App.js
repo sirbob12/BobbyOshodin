@@ -1,7 +1,8 @@
-import {Routes, Route} from 'react-router-dom';
-import {Home} from './Pages';
-import {Navbar, Footer, About} from './Component';
+import { Routes, Route } from 'react-router-dom';
+import { Home } from './Pages';
+import { Navbar, Footer, About, Portfolio, Contact } from './Component';
 import { Project1, Project2, Project3 } from './Pages';
+
 import './App.css';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
         <Route path= '/Project2' element={<Project2/>}/>
         <Route path= '/Project3' element={<Project3/>}/>
         <Route path= '/Project3' element={<Project3/>}/>
+        <Route path= '/About' element={<About/>}/>
+        <Route path= '/Portfolio' element={<Portfolio/>}/>
+        <Route path= '/Contact' element={<Contact/>}/>
         
        
       </Routes>

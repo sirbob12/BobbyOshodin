@@ -1,91 +1,262 @@
 import React from 'react'
-import {images} from '../Constant'
-import {Contact} from '../Component'
+import interpretationImage from '../port_asset/sproket_Ltd/interpretationKPMGANALYSIS.png'
+import sproketModel from '../port_asset/sproket_Ltd/sproket_model.png';
+import bikePurchaseState from '../port_asset/sproket_Ltd/bike_state_purchase.png';
+import ageCategory from '../port_asset/sproket_Ltd/age_category.png';
+import jobIndustry from '../port_asset/sproket_Ltd/jobIndustry.png';
+import wealthSegment from '../port_asset/sproket_Ltd/wealth_segment.png';
+import genderPercentage from '../port_asset/sproket_Ltd/gender_percentage.png';
+import dashboard from '../port_asset/sproket_Ltd/sprocketDashboard.png';
+import highValue from '../port_asset/high_value_customers.png';
+
 
 //import scss links
 import './project1.scss'
 
 const project1 = () => { 
-  const contactStyle = {
-     background:'white'
-  }
+ 
   return (
-  
-      
-         <section className="project1">
-          <div className="container">         
-            <hr/>
-            
-            <div className="heading_tags">
-            <h1 className="heading">FESTIVEBUYS WEB APPLICATION</h1>
-            <h1 className="main_heading_tag">
-              AN ECOMMERCE SOLUTION FOR GIFTS AT AFFORDABLE PRICES.
-            </h1>
-            </div>
 
-            <img src={images.Landing_page} alt="" className="landing_page" />
-             
+     <section className="project1">
+        <div className="container">
 
-             <div className="summary_group">
-            <h1 className="summary">SUMMARY</h1>
-            <p className="summary_text">
-              An ecommerce web application which enables customers to make gift purchases
-              based on their holidays or festival preferences. Hence saving time of trying to make choice 
-              from ambigous gifts list.
-            </p>
-            </div>
+        
+          <h1 className="projectName"> Sproket Bike Analysis</h1>
 
-            <hr className='summary_line'/>
+          <div className="introduction">
+           <h2 className="subHeading">Introduction</h2>
+           <p className="paragraphs">
+           Our client Sprokket central pty Ltd is a 
+           household name in the retail (Bike) business
+            in Australlia. Theyre looking to expand their 
+            business and maximise profit accross demographics, 
+            industries etc.
+           </p>
 
-            
-            <div className="scope">
-            <h1 className="scope_work">Scope of work</h1>
-            <p className="scope_text">
-              In order to make this product meet the needs of the end users, I gathered insights from<br/>
-              users research and interviews, which informed my decisions on the developement of a prototype<br/>
-              with a users friendly interface and simple design.
-            </p>
-            </div>
+           </div>
 
-            <img src={images.frame} alt="" className="frame" />
 
-            <hr className='goal_line'/>
+          <div className="problemStatement">
+           <h2 className="subHeading">Problem Statement</h2> 
 
-            <div className="goal_class">
-              <h2 className="goal">My Goal</h2>
+           <p className="paragraphs">
+           Sprocket central seeks to understand and 
+           identify which of its 1000 new customers it should
+            target and deploy all its marketing resources on, 
+            based on existing data on its old and new customers.</p>
+           
+            <p className="paragraphs">
+             After deep analytical thinking and consideration we 
+             came up with the following questions<br/>
               
-              <div className="right_goals">
-              <h1 className="goal_paragraph">
-                My goal was to design a web application with a <br/>very simple user interface that 
-                that will allow customers<br/> buy gifts that is specifically suited for the given <br/>festival celebration 
-                without having to spend so much time <br/>trying to select from a large pool of gifts which might not <br/> be realated to the given 
-                season and could be a hassle.             
-              </h1>
+              <p className="paragraphs">
+               <span className='modelSpan'> 1. Which States was bikes purchase the highest and most frequent?</span><br/>
+               <span className='modelSpan'> 2. Which Gender purchased bikes the most?<br/></span>
+               <span className='modelSpan'>3. Which age category makes the highest purchase?<br/></span>
+               <span className='modelSpan'> 4. Which job industry's is bike purchase most frequent?<br/></span>
+               <span className='modelSpan'> 5. Which wealth segmentation patronize bike sproket the most?<br/></span>
+           </p>
+           </p>
 
-              
-              </div>
-            </div>
-             
-            <img src={images.goals} alt="goals_image" className="goals_image" />
-            <hr className='case_study_line'/>
+           </div>
 
-            <h1 className="case_study">
-              CASE STUDY COMING SOON
-            </h1>
+
+        <div className="DataSourcing">
+           <h2 className="subHeading">Data Sourcing</h2>
             
-            <div className="hifi_section">
-            <h2 className="heading">The solution</h2>
-            <h2 className="solutions_subheading">
-              HI-FIDELITY WEB APPLICATION DESIGN
+           <p className="paragraphs">
+
+           Dataset was provided by our client in excel format and meets
+            all licensisng, privacy, security policies, standards and regulations.<br/>
+
+            <p className="paragraphs">
+             The dataset contains four excel sheets which includes:
+              
+            <p>
+              1.  TitleSheet (Meta data...instructions on how to navigate the dataset)<br/>
+              2.  CustomerDemographics<br/>
+              3.  NewCustomerList<br/>
+              4.  Transactions<br/>
+               5. CustomerAddress<br/>
+               <p>
+               Link to dataset <a ahref= "#">Here</a>.
+                </p> 
+              </p>
+           </p>
+           </p>
+           </div>
+
+
+           <div className="tools">
+            <h2 className="subheading">Tools</h2>
+            <p className="paragraphs">Microsoft Excel, PowerBI</p>
+           </div>
+
+
+        <div className="DataPreProcessing">
+           <h2 className="subHeading">Data PreProcessing/Cleaning</h2>
+
+           <p className="paragraph">
+           Created the age column in the customerDemographics dataset using 
+           the excel DATEDIF function, and also used excel VLOOKUP function 
+           to get the profits of the customers based on the customer's id field.<br/>
+
+           
+          <p className="paragraph">
+           Imported dataset into power query in Power BI for futher wrangling
+           
+           and transformation.<br/>
+           </p>
+
+          <p className="paragraph">
+            <p className="paragraph">
+          The following process where carried out on dataset to clean the dataset:
+          </p>
+          In the customerDemographics dataset: <br/>
+
+          <p className="paragraph">
+          The default column was removed. 
+          Empty fields and blanks from the DOB column was removed. <br/>
+          An outlier in the DOB column was spotted and removed.<br/> 
+          Fields marked yes in the deceased column was removed.<br/>
+          Gender coulumn was made consistent by ensuring it was limited to just "MALE", "FEMALE", "U"<br/>
+ 
+          <p className="paragraph">
+          In the CustomerAddress dataset: <br/>
+          The state of New South Wales Victoria was replaced with NSW and VIC respectively.
+
+          <p className="paragraph">
+          In the Transactions dataset:<br/>
+           A calculated column named profit was created.
+          </p>
+          <p className="paragraph">
+          Below is a screenshot of the power BI tables
+          </p>
+           </p>
+
+          </p>
+          </p>
+          </p>
+
+          <img src={interpretationImage} alt="image1" className="image_1" />
+          </div>
+
+
+        <div className="model">
+          <h2 className="subHeading">Model</h2>
+
+          <p className="paragraph">
+
+          The following tables where joined based on the customer id.<br/>
+          
+          <span className="modelSpan"> 1. customerDemographic<br/></span>
+          <span className="modelSpan"> 2. customerAddress.<br/></span>
+          <span className="modelSpan"> 3. Transactions<br/></span>
+           
+            Below is a screenshot of the model
+          </p>
+
+          <img src={sproketModel} alt="image2" className="image2" />
+          </div>
+
+
+        <div className="analysisVisualization">
+         <h2 className="heading2"> Analysis and Visualization</h2>
+          <p className="paragraph">
+         
+          Analysis was done using simple visuals since the tables have been perfectly modelled together.
+
+          <h4 className="visualization">Total bike purchase by states</h4>
+
+            </p>
+          <img src={bikePurchaseState} alt="image3" className="image3" />
+
+          <p className="paragraph">
+            The highest bike purchases is made in the state 
+            of NSW. purchases of over 100,000
+            </p>
+
+            <h4 className="visualization">
+            Total bike purchase by age category
+
+            </h4>
+
+            <img src={ageCategory} alt="image3" className="image3" />
+
+            <p className="paragraph">
+              The highest number of bikes is being
+               purchased by the age group 40-49.
+            </p>
+
+          
+            <h4 className="visualization">
+            Job industry purchases
+            </h4>
+            <img src={jobIndustry} alt="image3" className="image3" />
+
+            <p className="paragrahp">
+            Purchases are very high within the Manufacturing,
+             Healthcare and IT industry's
+            </p>
+
+            <h4 className="visualization">
+            Purchaeses by wealth segment
+            </h4>
+
+            <img src={wealthSegment} alt="image3" className="image3" />
+            <p className="paragraph">
+            The Mass customers are making the highest purchases.
+            </p>
+
+            <h4 className="visualization">
+            Gender percentage
+            </h4>
+            <img src={genderPercentage} alt="image3" className="image3" />
+           
+           <p className="paragraph">
+              Apparently females hold a larger share of the bike purchase market
+              </p>
+
+          </div>
+
+
+
+         <div className="visualizationDiv">
+            <h2 className="visualization_heading">DASHBOARD TO VISUALIZE OUR FINDINGS</h2>
+            <img src={dashboard} alt="image8" className="image8" />
+
+            <p className="paragraph">
+            Apparently females hold a larger share of the bike purchase market
+            </p>
+          </div>
+
+
+        <div className="conclusion">
+            <h2 className="heading3">
+            Conclusion/Recommendation
             </h2>
 
-             <img src={images.frontend} alt="" className="frontend" />
-             <img src={images.backend} alt="" className="backend" />
+            <p className="paragraph">
+            Based on these findings we where able to identify
+             the customers to target from our newcustomers dataset, 
+             considering their state,gender, wealth segment, age_category 
+             and the industry they work.<br/>
+
+             Hence we arrived at this list.
+            </p>
+            <img src={highValue} alt="image9" className="image9" />
+
+            <p className="paragraph">
+            Sproket Central should deploy all its marketing 
+            resources to target these high value customers.
+            </p>
+
             </div>
 
-            <Contact/>
-          </div>
-         </section>
+            
+        </div>
+     </section>
+        
     
     
   )

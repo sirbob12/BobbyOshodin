@@ -1,0 +1,41 @@
+/*creating the styling packages forproject 3 page*/
+
+.project3{
+    margin-right: 175px;
+    margin-left: 175px;
+
+    .container{
+        margin-top: 80px;
+      
+        /* Global attributes*/
+        h2{
+            font-size: 25px;
+
+        }
+
+        p{
+            font-size: 20px;
+            padding-top: 14px;
+            line-height: 25px; 
+            margin-bottom: 20px;
+        }
+
+        .main_heading{
+            text-align: center;
+            font-size: 45px;
+            padding-bottom: 30px;
+        
+          
+        }
+
+        .image{
+            height: 400px;
+            margin-bottom: 40px;
+        }
+
+        .conclusion{
+            margin-top: 50px;
+            padding-bottom: 30px;
+        }
+    }
+}

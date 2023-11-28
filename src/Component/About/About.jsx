@@ -5,7 +5,7 @@ import './About.scss';
 
 const About = () => {
   return (
-     <section className="about">
+     <section className="about" id='about'>
          <img src={images.rectangle} alt="" className="rectangle" />
        
         <img src={images.circle} alt="" className="circle" />
@@ -32,8 +32,8 @@ const About = () => {
             Let's transcend traditional boundaries together,<br/>
              unlocking the true potential of data. </p>
 
-          <a href="file:///C:/Users/PC/Documents/BOBBY_OSHODIN_DATA_ANALYST_RESUME.pdf" target='blank'
-           className="btn_about_me">
+          <a href="BOBBY_OSHODIN_DATA_ANALYST_RESUME.pdf" 
+           className="btn_about_me" target='blank'>
             Download CV
             </a>
         </div>
