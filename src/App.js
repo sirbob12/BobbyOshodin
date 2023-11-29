@@ -6,12 +6,12 @@ import { Project1, Project2, Project3 } from './Pages';
 import './App.css';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
       <Navbar/>
      
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route exact path='/' element={<Home/>}/>
         <Route path= '/Project1' element={<Project1/>}/>
         <Route path= '/Project2' element={<Project2/>}/>
         <Route path= '/Project3' element={<Project3/>}/>
